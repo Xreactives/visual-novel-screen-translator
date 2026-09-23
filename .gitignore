@@ -1,3 +1,12 @@
 .idea/
 .venv/
-data/
+dataset/
+yolo_dataset/
+runs/
+weights/
+*.json
+*.yaml
+*.xml
+output_predictions/
+detect_val/
+*.txt

@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34675b74-4e2e-40b7-bb64-fec178510555" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/visual-novel-screen-translator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_labeler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_labeler_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_labeler_trained.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_yolo_labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_cleaning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_cleaning_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prepare_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/split_yolo_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/undo_cleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/visual-novel-screen-translator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/visual-novel-screen-translator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_labeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_labeler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6969448485551926" />
-      <entry key="MS500" value="2.84100566418217" />
-      <entry key="S2" value="7.155024193854759" />
-      <entry key="S5" value="10.067248551310337" />
-      <entry key="S10" value="11.425034100461595" />
-      <entry key="S30" value="12.911645244557224" />
-      <entry key="S60" value="14.426365509301506" />
-      <entry key="M2" value="16.764045726439207" />
-      <entry key="M5" value="19.728416177192766" />
-      <entry key="M10" value="21.19416777848483" />
-      <entry key="M15" value="21.754556023057447" />
-      <entry key="M30" value="22.355467591090953" />
-      <entry key="H1" value="22.672078420994488" />
-      <entry key="H2" value="22.83459918430534" />
-      <entry key="H4" value="22.916936259028216" />
-      <entry key="D1" value="22.986105295353543" />
-      <entry key="W1" value="22.99801379565761" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S5" value="9.254911517374783E-243" />
+      <entry key="S10" value="1.7478671536602542E-121" />
+      <entry key="S30" value="1.355023074677706E-40" />
+      <entry key="S60" value="2.3250299376733418E-20" />
+      <entry key="M2" value="3.1487391090062837E-10" />
+      <entry key="M5" value="4.1968465096083317E-4" />
+      <entry key="M10" value="0.05570348664859834" />
+      <entry key="M15" value="0.3188236963056451" />
+      <entry key="M30" value="2.120057252090816" />
+      <entry key="H1" value="6.211750290143135" />
+      <entry key="H2" value="15.394304478896437" />
+      <entry key="H4" value="42.80012708231203" />
+      <entry key="D1" value="152.79705235006864" />
+      <entry key="W1" value="195.6402005003158" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000000000002" />
+      <entry key="M2" value="1.0000000221593635" />
+      <entry key="M5" value="1.0016010665453232" />
+      <entry key="M10" value="1.0710475540919508" />
+      <entry key="M15" value="1.2612867102863123" />
+      <entry key="M30" value="2.0328344735967194" />
+      <entry key="H1" value="3.1858680026857598" />
+      <entry key="H2" value="4.318463650281826" />
+      <entry key="H4" value="5.538135322382502" />
+      <entry key="D1" value="9.237105111300323" />
+      <entry key="W1" value="10.709094189346384" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5816446727697204" />
-      <entry key="MS500" value="2.43618162524797" />
-      <entry key="S2" value="6.9074329295093735" />
-      <entry key="S5" value="9.944770159785326" />
-      <entry key="S10" value="11.358488871656531" />
-      <entry key="S30" value="12.883080810634173" />
-      <entry key="S60" value="14.406683911543531" />
-      <entry key="M2" value="16.750279513041402" />
-      <entry key="M5" value="19.721016221406316" />
-      <entry key="M10" value="21.190010044302852" />
-      <entry key="M15" value="21.75166835055246" />
-      <entry key="M30" value="22.353961856126062" />
-      <entry key="H1" value="22.671309287884135" />
-      <entry key="H2" value="22.834210448253582" />
-      <entry key="H4" value="22.916740835468904" />
-      <entry key="D1" value="22.986072577028622" />
-      <entry key="W1" value="22.99800911797845" />
+      <entry key="MS100" value="7.833410019304832E-5" />
+      <entry key="MS500" value="0.15093507393581204" />
+      <entry key="S2" value="0.6233005971375487" />
+      <entry key="S5" value="0.8277115533109416" />
+      <entry key="S10" value="0.9097865427180936" />
+      <entry key="S30" value="0.968976332737207" />
+      <entry key="S60" value="0.9843659546821026" />
+      <entry key="M2" value="0.9921522055120551" />
+      <entry key="M5" value="0.9988691517443448" />
+      <entry key="M10" value="1.1250620610482929" />
+      <entry key="M15" value="1.578761025579214" />
+      <entry key="M30" value="4.151664125180234" />
+      <entry key="H1" value="9.396475339534415" />
+      <entry key="H2" value="19.71187733928595" />
+      <entry key="H4" value="48.33762397253771" />
+      <entry key="D1" value="162.03395512874934" />
+      <entry key="W1" value="206.3492604398245" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -98,27 +103,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.auto_labeler.executor": "Run",
+    "Python.build_yolo_labels.executor": "Run",
+    "Python.code_cleaning.executor": "Run",
+    "Python.detect_test.executor": "Run",
+    "Python.predict.executor": "Run",
+    "Python.prepare_dataset.executor": "Run",
+    "Python.pull_image.executor": "Run",
+    "Python.split_yolo_data.executor": "Run",
+    "Python.train_yolo.executor": "Run",
+    "Python.undo_cleaning.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "F:/Pycharm Projects/visual-novel-screen-translator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Pycharm Projects\visual-novel-screen-translator" />
+      <recent name="F:\Pycharm Projects\visual-novel-screen-translator\data" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -138,10 +162,28 @@
       <workItem from="1789373323535" duration="316000" />
       <workItem from="1789373667632" duration="8048000" />
       <workItem from="1789446052758" duration="15000" />
+      <workItem from="1789738137573" duration="7390000" />
+      <workItem from="1789881414118" duration="2527000" />
+      <workItem from="1789899003780" duration="1070000" />
+      <workItem from="1789908788429" duration="3314000" />
+      <workItem from="1789912404338" duration="8483000" />
+      <workItem from="1789958656154" duration="22291000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$build_yolo_labels.coverage" NAME="build_yolo_labels Coverage Results" MODIFIED="1789921812578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$auto_labeler.coverage" NAME="auto_labeler Coverage Results" MODIFIED="1789909613166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$prepare_dataset.coverage" NAME="prepare_dataset Coverage Results" MODIFIED="1789987802964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$pull_image.coverage" NAME="pull_image Coverage Results" MODIFIED="1789980170674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$predict.coverage" NAME="predict Coverage Results" MODIFIED="1789919009491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$detect_test.coverage" NAME="detect_test Coverage Results" MODIFIED="1789995256209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$split_yolo_data.coverage" NAME="split_yolo_data Coverage Results" MODIFIED="1789987836654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$code_cleaning.coverage" NAME="code_cleaning Coverage Results" MODIFIED="1789911206178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$train_yolo.coverage" NAME="train_yolo Coverage Results" MODIFIED="1789988169981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visual_novel_screen_translator$undo_cleaning.coverage" NAME="undo_cleaning Coverage Results" MODIFIED="1789910975993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

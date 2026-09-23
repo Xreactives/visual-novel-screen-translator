@@ -3,7 +3,12 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
-      <excludeFolder url="file://$MODULE_DIR$/data" />
+      <excludeFolder url="file://$MODULE_DIR$/dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/yolo_dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/output_predictions" />
+      <excludeFolder url="file://$MODULE_DIR$/runs" />
+      <excludeFolder url="file://$MODULE_DIR$/weights" />
+      <excludeFolder url="file://$MODULE_DIR$/detect_val" />
     </content>
     <orderEntry type="jdk" jdkName="F:\Pycharm Projects\visual-novel-screen-translator\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
